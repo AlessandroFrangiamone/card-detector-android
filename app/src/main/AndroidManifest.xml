@@ -27,7 +27,7 @@
         </activity>
 
         <activity
-            android:name="it.alessandrof.carddetector.ui.activity.MainActivity"
+            android:name="it.alessandrof.carddetector.ui.activity.DetectionActivity"
             android:screenOrientation="portrait"/>
     </application>
 
