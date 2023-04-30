@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_detection"
+    app:startDestination="@id/imageDetectionFragment">
+
+    <fragment
+        android:id="@+id/imageDetectionFragment"
+        android:name="it.alessandrof.carddetector.ui.fragment.ImageDetectionFragment"
+        android:label="ImageDetectionFragment" />
+</navigation>
