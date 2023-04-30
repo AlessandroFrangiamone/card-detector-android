@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.os.Handler
 import android.util.Log
 import it.alessandrof.carddetector.databinding.ActivitySplashScreenBinding
-import it.alessandrof.carddetector.ui.activity.MainActivity
+import it.alessandrof.carddetector.ui.activity.DetectionActivity
 
 class SplashscreenActivity : AppCompatActivity() {
 
     private var baseActivityBinding: ActivitySplashScreenBinding? = null
     private lateinit var binding: ActivitySplashScreenBinding
 
-    private val SPLASH_SCREEN = 2000
+    private val SPLASHSCREENTIME = 2000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,11 +29,11 @@ class SplashscreenActivity : AppCompatActivity() {
 
     fun startTimer(){
         val r = Runnable {
-            val intent = Intent(this, MainActivity::class.java).apply {
+            val intent = Intent(this, DetectionActivity::class.java).apply {
                 Log.d("TAG", "Change Activity")
             }
             startActivity(intent)
         }
-        Handler().postDelayed(r, (SPLASH_SCREEN).toLong())
+        Handler().postDelayed(r, (SPLASHSCREENTIME).toLong())
     }
 }
