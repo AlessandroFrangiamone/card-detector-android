@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/_32sdp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_32sdp</dimen>
+
+    <dimen name="view_match_constraint">0dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_margin_super_large">@dimen/_128sdp</dimen>
+    <dimen name="default_margin_very_large">@dimen/_64sdp</dimen>
+    <dimen name="default_margin_large_plus">@dimen/_48sdp</dimen>
+    <dimen name="default_margin_large_quiet_plus">@dimen/_36sdp</dimen>
+    <dimen name="default_margin_large">@dimen/_32sdp</dimen>
+    <dimen name="default_margin_large0">@dimen/_30sdp</dimen>
+    <dimen name="default_margin_medium_plus">@dimen/_25sdp</dimen>
+    <dimen name="default_margin_medium">@dimen/_20sdp</dimen>
+    <dimen name="default_margin">@dimen/_16sdp</dimen>
+    <dimen name="default_margin_small_plus">@dimen/_12sdp</dimen>
+    <dimen name="default_margin_small">@dimen/_8sdp</dimen>
+    <dimen name="default_margin_extra_small">@dimen/_4sdp</dimen>
+    <dimen name="default_margin_null">0dp</dimen>
+
+
+    <!-- Others -->
+    <dimen name="toolbar_height">@dimen/_44sdp</dimen>
+    <dimen name="default_elevation">@dimen/_2sdp</dimen>
+    <dimen name="loader_side_size">@dimen/_100sdp</dimen>
+    <dimen name="image_item_game_menu">@dimen/_60sdp</dimen>
+    <dimen name="separator_height">@dimen/_1sdp</dimen>
+    <dimen name="shadow_height">@dimen/_6sdp</dimen>
+    <dimen name="splashscreen_logo">@dimen/_160sdp</dimen>
+    <dimen name="login_logo">@dimen/_150sdp</dimen>
+    <dimen name="login_logo_margin_top">@dimen/_140sdp</dimen>
+    <dimen name="medium_height">@dimen/_50sdp</dimen>
+    <dimen name="edit_text_min_width">@dimen/_30sdp</dimen>
+    <dimen name="scrollbar_size">@dimen/_6sdp</dimen>
+
+    <!-- icons -->
+    <dimen name="image_rounded_icon">@dimen/_24sdp</dimen>
+    <dimen name="image_icon_big_height">@dimen/_48sdp</dimen>
+    <dimen name="image_icon_medium_height">@dimen/_30sdp</dimen>
+    <dimen name="image_icon_normal_height">@dimen/_24sdp</dimen>
+    <dimen name="image_icon_small_height">@dimen/_20sdp</dimen>
+    <dimen name="image_icon_extra_small_height">@dimen/_16sdp</dimen>
+
+
+    <!-- buttons -->
+    <dimen name="button_normal_height">@dimen/_32sdp</dimen>
+    <dimen name="button_normal_minus_height">@dimen/_28sdp</dimen>
+
+    <!-- video -->
+    <dimen name="video_width">@dimen/_180sdp</dimen>
+    <dimen name="video_height">@dimen/_300sdp</dimen>
+    <dimen name="video_height_normal">@dimen/_200sdp</dimen>
+
+
+    <!-- Text dimens -->
+    <dimen name="H0_text_size">@dimen/_24ssp</dimen>
+    <dimen name="H1_text_size">@dimen/_20ssp</dimen>
+    <dimen name="H2_text_size">@dimen/_20ssp</dimen>
+    <dimen name="H3_text_size">@dimen/_18ssp</dimen>
+    <dimen name="H4_text_size">@dimen/_18ssp</dimen>
+    <dimen name="H5_text_size">@dimen/_18ssp</dimen>
+    <dimen name="H6_text_size">@dimen/_18ssp</dimen>
+    <dimen name="H7_text_size">@dimen/_16ssp</dimen>
+    <dimen name="H8_text_size">@dimen/_16ssp</dimen>
+    <dimen name="H9_text_size">@dimen/_14ssp</dimen>
+    <dimen name="H10_text_size">@dimen/_13ssp</dimen>
+    <dimen name="H11_text_size">@dimen/_12ssp</dimen>
+    <dimen name="H12_text_size">@dimen/_11ssp</dimen>
+    <dimen name="H13_text_size">@dimen/_9ssp</dimen>
+
+    <dimen name="P0_text_size">@dimen/_18ssp</dimen>
+    <dimen name="P1_text_size">@dimen/_18ssp</dimen>
+    <dimen name="P2_text_size">@dimen/_16ssp</dimen>
+    <dimen name="P3_text_size">@dimen/_16ssp</dimen>
+    <dimen name="P4_text_size">@dimen/_16ssp</dimen>
+    <dimen name="P5_text_size">@dimen/_16ssp</dimen>
+    <dimen name="P6_text_size">@dimen/_14ssp</dimen>
+    <dimen name="P7_text_size">@dimen/_14ssp</dimen>
+    <dimen name="P8_text_size">@dimen/_14ssp</dimen>
+    <dimen name="P9_text_size">@dimen/_14ssp</dimen>
+    <dimen name="P10_text_size">@dimen/_12ssp</dimen>
+    <dimen name="P11_text_size">@dimen/_12ssp</dimen>
+    <dimen name="P12_text_size">@dimen/_10ssp</dimen>
+    <dimen name="P13_text_size">@dimen/_8ssp</dimen>
+</resources>
