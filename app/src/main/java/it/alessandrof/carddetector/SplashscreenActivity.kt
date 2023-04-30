@@ -7,6 +7,7 @@ import android.os.Handler
 import android.util.Log
 import it.alessandrof.carddetector.databinding.ActivitySplashScreenBinding
 import it.alessandrof.carddetector.ui.activity.DetectionActivity
+import it.alessandrof.carddetector.ui.activity.HomepageActivity
 
 class SplashscreenActivity : AppCompatActivity() {
 
@@ -27,9 +28,9 @@ class SplashscreenActivity : AppCompatActivity() {
 
     }
 
-    fun startTimer(){
+    private fun startTimer(){
         val r = Runnable {
-            val intent = Intent(this, DetectionActivity::class.java).apply {
+            val intent = Intent(this, HomepageActivity::class.java).apply {
                 Log.d("TAG", "Change Activity")
             }
             startActivity(intent)
