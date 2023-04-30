@@ -40,6 +40,8 @@ class DetectionActivity : AppCompatActivity() {
             )
         }
         setNavController()
+
+        setUpListeners()
     }
 
     //Check di tutti i permessi
@@ -76,6 +78,12 @@ class DetectionActivity : AppCompatActivity() {
         navController.setGraph(
                 R.navigation.nav_detection
         )
+    }
+
+    private fun setUpListeners(){
+        binding.backBtn.setOnClickListener {
+            finish()
+        }
     }
 
 }

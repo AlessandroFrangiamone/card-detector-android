@@ -25,8 +25,8 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/image_icon_normal_height"
             android:backgroundTint="@android:color/transparent"
-            android:visibility="gone"
             android:src="@drawable/ic_back_icon"
+            android:contentDescription="-"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
