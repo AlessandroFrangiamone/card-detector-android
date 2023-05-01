@@ -1,4 +1,84 @@
 <resources>
     <string name="app_name">Card Detector</string>
     <string name="permission_deny_text">Required permissions denied. Exiting.</string>
+
+    <!-- Homepage View -->
+    <string name="start_scan">Start Scan</string>
+    <string name="content_description_logo">Card Detector Logo</string>
+    <string name="content_description_title">Card Detector Title</string>
+    <string name="content_description_button_start_scan">Press the button to start scanning cards</string>
+
+
+    <!-- Detection View -->
+    <string name="content_description_back_button">Press to go back on menù</string>
+    <string name="probably">Probably</string>
+    <string name="cant_recognize">Can\'t recognize the card</string>
+
+    <string name="jolly">Jolly</string>
+
+    <string name="ace_of_hearts">Ace of Hearts</string>
+    <string name="ace_of_clubs">Ace of Clubs</string>
+    <string name="ace_of_spades">Ace of Spades</string>
+    <string name="ace_of_diamonds">Ace of Diamonds</string>
+
+    <string name="two_of_hearts">Two of Hearts</string>
+    <string name="two_of_clubs">Two of Clubs</string>
+    <string name="two_of_spades">Two of Spades</string>
+    <string name="two_of_diamonds">Two of Diamonds</string>
+
+    <string name="three_of_hearts">Three of Hearts</string>
+    <string name="three_of_clubs">Three of Clubs</string>
+    <string name="three_of_spades">Three of Spades</string>
+    <string name="three_of_diamonds">Three of Diamonds</string>
+
+    <string name="four_of_hearts">Four of Hearts</string>
+    <string name="four_of_clubs">Four of Clubs</string>
+    <string name="four_of_spades">Four of Spades</string>
+    <string name="four_of_diamonds">Four of Diamonds</string>
+
+    <string name="five_of_hearts">Five of Hearts</string>
+    <string name="five_of_clubs">Five of Clubs</string>
+    <string name="five_of_spades">Five of Spades</string>
+    <string name="five_of_diamonds">Five of Diamonds</string>
+
+    <string name="six_of_hearts">Six of Hearts</string>
+    <string name="six_of_clubs">Six of Clubs</string>
+    <string name="six_of_spades">Six of Spades</string>
+    <string name="six_of_diamonds">Six of Diamonds</string>
+
+    <string name="seven_of_hearts">Seven of Hearts</string>
+    <string name="seven_of_clubs">Seven of Clubs</string>
+    <string name="seven_of_spades">Seven of Spades</string>
+    <string name="seven_of_diamonds">Seven of Diamonds</string>
+
+    <string name="eight_of_hearts">Eight of Hearts</string>
+    <string name="eight_of_clubs">Eight of Clubs</string>
+    <string name="eight_of_spades">Eight of Spades</string>
+    <string name="eight_of_diamonds">Eight of Diamonds</string>
+
+    <string name="nine_of_hearts">Nine of Hearts</string>
+    <string name="nine_of_clubs">Nine of Clubs</string>
+    <string name="nine_of_spades">Nine of Spades</string>
+    <string name="nine_of_diamonds">Nine of Diamonds</string>
+
+    <string name="ten_of_hearts">Ten of Hearts</string>
+    <string name="ten_of_clubs">Ten of Clubs</string>
+    <string name="ten_of_spades">Ten of Spades</string>
+    <string name="ten_of_diamonds">Ten of Diamonds</string>
+
+    <string name="jack_of_hearts">Jack of Hearts</string>
+    <string name="jack_of_clubs">Jack of Clubs</string>
+    <string name="jack_of_spades">Jack of Spades</string>
+    <string name="jack_of_diamonds">Jack of Diamonds</string>
+
+    <string name="queen_of_hearts">Queen of Hearts</string>
+    <string name="queen_of_clubs">Queen of Clubs</string>
+    <string name="queen_of_spades">Queen of Spades</string>
+    <string name="queen_of_diamonds">Queen of Diamonds</string>
+
+    <string name="king_of_hearts">King of Hearts</string>
+    <string name="king_of_clubs">King of Clubs</string>
+    <string name="king_of_spades">King of Spades</string>
+    <string name="king_of_diamonds">King of Diamonds</string>
+
 </resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Card Detector</string>
+    <string name="permission_deny_text">Permessi richiesti negati. Chiusura dell\'app.</string>
+
+    <!-- Homepage View -->
+    <string name="start_scan">Inizia Scansione</string>
+    <string name="content_description_logo">Logo dell\'app Card Detector</string>
+    <string name="content_description_title">Titolo Card Detector</string>
+    <string name="content_description_button_start_scan">Premi il bottone per iniziare la scansione delle carte</string>
+
+
+    <!-- Detection View -->
+    <string name="content_description_back_button">premi per tornare al menù</string>
+    <string name="probably">Probabilmente</string>
+    <string name="cant_recognize">Non è possibile riconoscere la carta</string>
+
+    <string name="jolly">Jolly</string>
+
+    <string name="ace_of_hearts">Asso di Cuori</string>
+    <string name="ace_of_clubs">Asso di Fiori</string>
+    <string name="ace_of_spades">Asso di Picche</string>
+    <string name="ace_of_diamonds">Asso di Quadri</string>
+
+    <string name="two_of_hearts">Due di Cuori</string>
+    <string name="two_of_clubs">Due di Fiori</string>
+    <string name="two_of_spades">Due di Picche</string>
+    <string name="two_of_diamonds">Due di Quadri</string>
+
+    <string name="three_of_hearts">Tre di Cuori</string>
+    <string name="three_of_clubs">Tre di Fiori</string>
+    <string name="three_of_spades">Tre di Picche</string>
+    <string name="three_of_diamonds">Tre di Quadri</string>
+
+    <string name="four_of_hearts">Quattro di Cuori</string>
+    <string name="four_of_clubs">Quattro di Fiori</string>
+    <string name="four_of_spades">Quattro di Picche</string>
+    <string name="four_of_diamonds">Quattro di Quadri</string>
+
+    <string name="five_of_hearts">Cinque di Cuori</string>
+    <string name="five_of_clubs">Cinque di Fiori</string>
+    <string name="five_of_spades">Cinque di Picche</string>
+    <string name="five_of_diamonds">Cinque di Quadri</string>
+
+    <string name="six_of_hearts">Sei di Cuori</string>
+    <string name="six_of_clubs">Sei di Fiori</string>
+    <string name="six_of_spades">Sei di Picche</string>
+    <string name="six_of_diamonds">Sei di Quadri</string>
+
+    <string name="seven_of_hearts">Sette di Cuori</string>
+    <string name="seven_of_clubs">Sette di Fiori</string>
+    <string name="seven_of_spades">Sette di Picche</string>
+    <string name="seven_of_diamonds">Sette di Quadri</string>
+
+    <string name="eight_of_hearts">Otto di Cuori</string>
+    <string name="eight_of_clubs">Otto di Fiori</string>
+    <string name="eight_of_spades">Otto di Picche</string>
+    <string name="eight_of_diamonds">Otto di Quadri</string>
+
+    <string name="nine_of_hearts">Nove di Cuori</string>
+    <string name="nine_of_clubs">Nove di Fiori</string>
+    <string name="nine_of_spades">Nove di Picche</string>
+    <string name="nine_of_diamonds">Nove di Quadri</string>
+
+    <string name="ten_of_hearts">Dieci di Cuori</string>
+    <string name="ten_of_clubs">Dieci di Fiori</string>
+    <string name="ten_of_spades">Dieci di Picche</string>
+    <string name="ten_of_diamonds">Dieci di Quadri</string>
+
+    <string name="jack_of_hearts">Jack di Cuori</string>
+    <string name="jack_of_clubs">Jack di Fiori</string>
+    <string name="jack_of_spades">Jack di Picche</string>
+    <string name="jack_of_diamonds">Jack di Quadri</string>
+
+    <string name="queen_of_hearts">Donna di Cuori</string>
+    <string name="queen_of_clubs">Donna di Fiori</string>
+    <string name="queen_of_spades">Donna di Picche</string>
+    <string name="queen_of_diamonds">Donna di Quadri</string>
+
+    <string name="king_of_hearts">Re di Cuori</string>
+    <string name="king_of_clubs">Re di Fiori</string>
+    <string name="king_of_spades">Re di Picche</string>
+    <string name="king_of_diamonds">Re di Quadri</string>
+
+</resources>

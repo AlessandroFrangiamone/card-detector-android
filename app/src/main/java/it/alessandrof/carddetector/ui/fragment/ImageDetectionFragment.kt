@@ -6,7 +6,6 @@ import android.util.Size
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.viewModels
 import androidx.camera.core.Camera
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageAnalysis
@@ -17,7 +16,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import it.alessandrof.carddetector.databinding.FragmentImageDetectionBinding
 import it.alessandrof.carddetector.ui.adapter.RecognitionAdapter
-import it.alessandrof.carddetector.ui.adapter.items.recognition.RecognitionModel
 import it.alessandrof.carddetector.ui.viewmodel.DetectionActivityViewModel
 import it.alessandrof.carddetector.ui.viewmodel.RecognitionListViewModel
 import it.alessandrof.carddetector.util.ImageAnalyzer
@@ -83,7 +81,7 @@ class ImageDetectionFragment: Fragment() {
         //Singleton che serve a legare la camera al processo dell'applicazione e permettere di fare l'analisi a queste immagini
         val cameraProviderFuture = ProcessCameraProvider.getInstance(requireActivity())
 
-        cameraProviderFuture.addListener(Runnable {
+        cameraProviderFuture.addListener({
             // Used to bind the lifecycle of cameras to the lifecycle owner
             val cameraProvider: ProcessCameraProvider = cameraProviderFuture.get()
 
@@ -95,8 +93,7 @@ class ImageDetectionFragment: Fragment() {
                     .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
                     .build()
                     .also { analysisUseCase: ImageAnalysis ->
-                        analysisUseCase.setAnalyzer(cameraExecutor, ImageAnalyzer(requireActivity()) { items ->
-                            items as List<RecognitionModel>
+                        analysisUseCase.setAnalyzer(cameraExecutor, ImageAnalyzer(requireActivity(), this) { items ->
 
                             if (items[0].toStringProb() > 40) {
                                 recogViewModel.updateData(items)

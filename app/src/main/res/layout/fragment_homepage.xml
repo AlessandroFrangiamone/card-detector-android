@@ -13,15 +13,17 @@
         android:src="@drawable/card_detector_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/content_description_logo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description_title"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
-        android:text="Card Detector"
+        android:text="@string/app_name"
         android:textColor="#020202"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -38,7 +40,8 @@
         android:background="@drawable/button_background"
         android:paddingLeft="@dimen/default_margin"
         android:paddingRight="@dimen/default_margin"
-        android:text="Inizia Scansione"
+        android:text="@string/start_scan"
+        android:contentDescription="@string/content_description_title"
         android:textColor="@color/black"
         android:textSize="@dimen/P5_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
