@@ -8,7 +8,7 @@ class CardDetectorApplication: Application() {
     @Override
     override fun onCreate() {
 
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         super.onCreate()
     }
 
