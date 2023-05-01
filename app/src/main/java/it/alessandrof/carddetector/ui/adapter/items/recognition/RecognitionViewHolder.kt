@@ -5,7 +5,6 @@ import android.speech.tts.TextToSpeech
 import android.util.Log
 import androidx.recyclerview.widget.RecyclerView
 import it.alessandrof.carddetector.databinding.RecognitionItemBinding
-import java.util.Locale
 
 class RecognitionViewHolder(private val binding: RecognitionItemBinding, private val ctx: Context) :
     RecyclerView.ViewHolder(binding.root) {
@@ -20,15 +19,15 @@ class RecognitionViewHolder(private val binding: RecognitionItemBinding, private
 
         Log.d("Card Detector", "Confidenza "+recognition.confidence)
 
-        if(recognition.label!="")
-            mTTS = TextToSpeech(ctx, TextToSpeech.OnInitListener { status ->
-                if (status != TextToSpeech.ERROR){
-                    mTTS.language= Locale.ITALIAN
-                    mTTS.speak(recognition.label, TextToSpeech.QUEUE_FLUSH, null)
-                }else{
+        if(recognition.label.isNotEmpty())
+            mTTS = TextToSpeech(ctx) { status ->
+                if (status != TextToSpeech.ERROR) {
+                    mTTS.language = binding.root.resources.configuration.locales[0]
+                    mTTS.speak(recognition.label, TextToSpeech.QUEUE_FLUSH, null, null)
+                } else {
                     Log.d("Card Detector", "Errore Text To Speech")
                 }
-            })
+            }
 
 
         binding.executePendingBindings()
