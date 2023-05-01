@@ -39,6 +39,7 @@ class ImageDetectionFragment: Fragment() {
     private val cameraExecutor = Executors.newSingleThreadExecutor()
 
     private var cameraAlreadyStarted = false
+    private var isFirstRecognition = true
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentImageDetectionBinding.inflate(layoutInflater)
@@ -94,11 +95,15 @@ class ImageDetectionFragment: Fragment() {
                     .build()
                     .also { analysisUseCase: ImageAnalysis ->
                         analysisUseCase.setAnalyzer(cameraExecutor, ImageAnalyzer(requireActivity(), this) { items ->
-
-                            if (items[0].toStringProb() > 40) {
-                                recogViewModel.updateData(items)
-                                Thread.sleep(3000)
-                            } else {
+                            if(!isFirstRecognition) {
+                                if (items[0].toStringProb() > 40) {
+                                    recogViewModel.updateData(items)
+                                    Thread.sleep(3000)
+                                } else {
+                                    Thread.sleep(1000)
+                                }
+                            }else{
+                                isFirstRecognition = false
                                 Thread.sleep(1000)
                             }
 
